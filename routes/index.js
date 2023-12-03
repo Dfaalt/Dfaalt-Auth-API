@@ -9,5 +9,7 @@ router.put("/user/update-username/:id", cAuth.update.updateUsername);
 router.delete("/user/delete/:id", cAuth.destroy.destroy);
 router.get("/user/get/", cAuth.getAll.getAll);
 router.get("/user/get/:id", cAuth.getOne.getOne);
+router.post("/user/upload/", cAuth.upload.upload);
+
 
 module.exports = router;

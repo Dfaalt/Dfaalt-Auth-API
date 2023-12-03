@@ -4,6 +4,7 @@ const update = require("./update");
 const destroy = require("./destroy");
 const getAll = require("./getAll");
 const getOne = require("./getOne");
+const upload = require("./upload");
 
 module.exports = {
     login, 
@@ -12,4 +13,5 @@ module.exports = {
     destroy,
     getAll,
     getOne,
+    upload,
 };
